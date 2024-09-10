@@ -1,0 +1,15 @@
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: Gxy050826@
+    url: jdbc:mysql://47.120.67.220:3306/herbs
+
+
+#  AppId 和 AppSecret
+weixin:
+  miniapp:
+    configs:
+      - appid: wx0662ba8c80c6f975
+        secret: 2c93f8077964e6b1c1e12d1468e219db
