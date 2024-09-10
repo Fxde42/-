@@ -1,0 +1,27 @@
+/* pages/log/log.wxss */
+.box{
+    position: relative;
+    width: 600rpx;
+    height: 150rpx;
+    margin: 50rpx;
+    border-radius: 5%;
+    border: 5rpx black  solid;
+}
+.res{
+    position: absolute;
+    top: 25rpx;
+    left: 15rpx;
+}
+.name{
+    position: absolute;
+    top: 80rpx;
+    left: 40rpx;
+    font-size: 40rpx;
+}
+image{
+    position: absolute;
+    top: 10rpx;
+    right: 50rpx;
+    width: 130rpx;
+    height: 130rpx;
+}

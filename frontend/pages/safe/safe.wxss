@@ -1,0 +1,53 @@
+/* pages/safe/safe.wxss */
+.container{
+    width: 750rpx;
+    height: 100vh;
+    background-color: #F7F7F7;
+}
+.box1{
+    position: absolute;
+    top: 0;
+    width: 750rpx;
+    height: 100rpx;
+    background: #FFFFFF;
+    border-radius: 0rpx 0rpx 0rpx 0rpx;
+}
+.box2{
+    position: absolute;
+    top: 100rpx;
+    width: 750rpx;
+    height: 100rpx;
+    background: #FFFFFF;
+    border-radius: 0rpx 0rpx 0rpx 0rpx;
+}
+.tex{
+        position: absolute;
+        left: 30rpx;
+        top: 50rpx;
+        width: 90rpx;
+        height: 40rpx;
+        font-family: Microsoft YaHei, Microsoft YaHei;
+        font-weight: 400;
+        font-size: 30rpx;
+        color: #707070;
+        line-height: 0rpx;
+        text-align: left;
+        font-style: normal;
+        text-transform: none;
+    
+}
+.num{
+    position: absolute;
+    right: 230rpx;
+    top: 50rpx;
+    width: 90rpx;
+    height: 40rpx;
+    font-family: Microsoft YaHei, Microsoft YaHei;
+    font-weight: 400;
+    font-size: 30rpx;
+    color: #707070;
+    line-height: 0rpx;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}

@@ -1,0 +1,51 @@
+{
+    "pages": [
+      "pages/index/index",
+      "pages/login/login",
+      "pages/log/log",
+      "pages/my/my",
+      "pages/setting/setting",
+      "pages/help/help",
+      "pages/safe/safe",
+      "pages/edit/edit",
+      "pages/prediction/prediction"
+
+    ],
+    "window": {
+      "navigationBarTextStyle": "white",
+      "navigationBarTitleText": "智能中草药识别",
+      "navigationBarBackgroundColor": "#6B8E23"
+      
+    },
+  
+
+  
+    "style": "v2",
+
+    "lazyCodeLoading": "requiredComponents",
+    "networkTimeout": {
+        "request": 20000,
+        "connectSocket": 20000,
+        "uploadFile": 20000,
+        "downloadFile": 20000
+    },
+    "tabBar":{
+        "backgroundColor": "#DDE5CD",
+        "list": [{
+          "pagePath": "pages/index/index",
+          "text": "首页",
+          "iconPath": "./assets/images/发现.jpg",
+          "selectedIconPath": "./assets/images/发现active.png"
+        },{
+          "pagePath": "pages/my/my",
+          "text": "我的",
+          "iconPath": "./assets/images/my.png",
+          "selectedIconPath": "./assets/images/myactive.png"
+        },{
+            "pagePath": "pages/log/log",
+            "text": "记录",
+            "iconPath": "./assets/images/log.png",
+            "selectedIconPath": "./assets/images/logactive.png"
+          }]
+    }
+  }

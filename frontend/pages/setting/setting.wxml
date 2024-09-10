@@ -1,0 +1,13 @@
+<view class="container">
+    <navigator url="../safe/safe" class="box2">
+    <text class="safe">账号与安全</text>
+    <text class="then"> > </text>
+    </navigator>
+
+
+    <navigator url="../help/help" class="box1">
+    <text class="safe">帮助与反馈</text>
+    <text class="then"> > </text>
+    </navigator >
+
+</view>

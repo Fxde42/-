@@ -1,0 +1,30 @@
+<view>
+    <image  class="BG" src="../../assets/images/BG.jpg" mode=""/>
+</view>
+
+
+    <view class="rec">
+    <!-- 未登录面板 -->
+    <view  wx:if="{{!nickname}}">
+    <view><image class="headImg" src="" mode="" bind:tap="login"/></view>
+    <view class="id" bind:tap="login">点我注册/登陆</view>
+    </view>
+    
+
+    <!-- 登录后面板 -->
+    <view  wx:else>
+    <view><image class="headImg" src="data:image/png;base64,{{avatarbase64}}" mode=""/></view>
+    <view class="id">{{nickname}}</view>
+    </view>
+
+    <view>
+        <navigator url="../edit/edit">
+        <image class="editId" src="../../assets/images/editId.png" mode=""/>
+        </navigator>    
+    </view>
+
+
+    <navigator url="../setting/setting" class="setting" bind:tap="setting"><text>设置</text></navigator >
+
+    <view class="exit" bind:tap="exit"><text>退出登录</text></view>
+    </view>

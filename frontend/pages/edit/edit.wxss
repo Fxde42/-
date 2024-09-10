@@ -1,0 +1,161 @@
+/* pages/edit/edit.wxss */
+.container{
+    width: 750rpx;
+    height: 100vh;
+    background-color: #f7f7f7;
+}
+.box{
+    z-index: 1;
+    position: absolute;
+    top: 0rpx;
+    background-color: #ffffff;
+    width: 750rpx;
+    height: 360rpx;
+
+}
+.headImg{
+    position: absolute;
+    z-index: 2;
+    top: 120rpx;
+    left: 275rpx;
+    width: 200rpx;
+    height: 200rpx;
+    color: #ffffff;
+    background: #FFFFFF;
+    border-radius: 50%;
+    box-shadow: 0rpx 3rpx 6rpx 1rpx rgba(0,0,0,0.16);
+}
+.box0{
+    z-index: 2;
+    position: absolute;
+    top: 0rpx;
+    width: 750rpx;
+    height:90rpx;
+    border-bottom: 1px solid #707070;
+}
+.choosebtn{
+    position: absolute;
+    right: 0;
+    background-color: #ffffff;
+    width: 90rpx;
+    height: 90rpx;
+}
+.headimg{
+    position: absolute;
+    top: 40rpx;
+    left: 0rpx;
+
+    width: 60rpx;
+    height: 40rpx;
+    font-family: Microsoft YaHei, Microsoft YaHei;
+    font-weight: 400;
+    font-size: 30rpx;
+    color: #707070;
+    line-height: 0rpx;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.head{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 90rpx;
+    height: 90rpx;
+    border-radius: 50%;
+}
+.box1{
+    z-index: 2;
+    position: absolute;
+    top: 97rpx;
+    width: 750rpx;
+    height:90rpx;
+    border-bottom: 1px solid #707070;
+}
+.box2{
+    z-index: 2;
+    position: absolute;
+    top: 187rpx;
+    width: 750rpx;
+    height:90rpx;
+    border-bottom: 1px solid #707070;
+}
+.box3{
+    z-index: 2;
+    position: absolute;
+    top: 277rpx;
+    width: 750rpx;
+    height:90rpx;
+
+}
+.name{
+    position: absolute;
+    
+    top: 40rpx;
+    width: 60rpx;
+    height: 40rpx;
+    font-family: Microsoft YaHei, Microsoft YaHei;
+    font-weight: 400;
+    font-size: 30rpx;
+    color: #707070;
+    line-height: 0rpx;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+}
+.pname{
+    position: absolute;
+    top: 40rpx;
+    width: 90rpx;
+    height: 40rpx;
+    font-family: Microsoft YaHei, Microsoft YaHei;
+    font-weight: 400;
+    font-size: 30rpx;
+    color: #707070;
+    line-height: 0rpx;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+}
+.uname{
+    position: absolute;
+    right: 5rpx;
+    width: auto;
+    text-align: right;
+    top:25rpx;
+    font-size: 30rpx;
+    color: #707070;
+}
+.pNum{
+    position: absolute;
+    text-align: right;
+    top:25rpx;
+    right: 5rpx;
+    font-size: 30rpx;
+    color: #707070;
+}
+.sex{
+    position: absolute;
+    top:25rpx;
+    right: 5rpx;
+    font-size: 30rpx;
+    color: #707070;
+}
+.save{
+    position: absolute;
+    top: 595rpx;
+    left: 200rpx;
+    color: #ffffff;
+    height: 100rpx;
+    background: #6B8E23;
+    border-radius: 15rpx 15rpx 15rpx 15rpx;
+}
+.exit{
+    position: absolute;
+    top: 825rpx;
+    left: 200rpx;
+    color: black;
+    height: 100rpx;
+    background: #ffffff;
+    border-radius: 15rpx 15rpx 15rpx 15rpx;
+}

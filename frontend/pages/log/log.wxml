@@ -1,0 +1,8 @@
+<!--pages/log/log.wxml-->
+<view wx:for="{{his}}" wx:key="index">
+    <view class="box">
+        <image src="data:image/png;base64,{{his[index].image}}" mode=""/> 
+        <text class="res">识别结果:</text>
+        <text class="name">{{his[index].herbName}}</text>
+    </view>
+</view>

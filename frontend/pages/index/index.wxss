@@ -1,0 +1,30 @@
+.container{
+width: 750rpx;
+height: 100vh;
+}
+.BG{
+    position: absolute;
+    top: 0;
+    width: 750rpx;
+    height: 100%; 
+}
+.action{
+    position: absolute;
+    top: 200rpx;
+    width: 360rpx;
+    height: 400rpx;
+    
+}
+.camera{
+    position: absolute;
+    top: 0rpx;
+    width: 360rpx;
+    height: 300rpx;
+}
+.paizhao{
+    position: absolute;
+    left: 30rpx;
+    top: 300rpx;
+    text-align: center;
+    font-size: xx-large;
+}

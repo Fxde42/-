@@ -1,0 +1,12 @@
+<view class="container">
+<image class="BG" src="../../assets/images/BG.jpg" mode=""/>
+<view class="action" bind:tap="camera">
+    <image class="camera" src="../../assets/images/camera.png"/>
+    <text class="paizhao">拍照识图</text>
+
+</view>
+
+
+
+</view>
+

@@ -1,0 +1,72 @@
+<!--pages/login/login.wxml-->
+
+<view class="container">
+
+ 
+ <view class="box">
+     <view class="box0" wx:if="{{!imgURL}}">
+         <text class="headimg">头像</text>
+         <button class="choosebtn" bindchooseavatar="chooseAvatar" open-type="chooseAvatar">
+         <image class="head" src='' mode=""/>
+         </button>
+         
+     </view>
+ 
+     <view class="box0" wx:else>
+         <text class="headimg">头像</text>
+         <button class="choosebtn" bindchooseavatar="chooseAvatar" open-type="chooseAvatar">
+         <image class="head" src='{{imgURL}}' mode=""/>
+         </button>
+         
+     </view>
+
+     <!-- <view class="box1" wx:if="{{!nickname}}"> -->
+         <text class="name">昵称</text> 
+
+         <form bindsubmit="getNewName">
+             <input class="uname"
+       type="nickname"
+       bindblur="leave"
+       name="nickname"
+       value="{{ nickname }}"
+     />
+         </form>
+     <!-- </view> -->
+ 
+     <!-- <view class="box1" wx:else>
+         <text class="name">昵称</text>
+         <text class="uname">{{nickname}}</text>
+     </view> -->
+ 
+ 
+     <view class="box2">
+         <text class="pname">手机号</text>
+         <!-- <view wx:if="{{!phone}}"> -->
+             <input class="pNum" type="number" placeholder="请填写手机号" bindinput="handleInput"
+             value="{{phone}}"></input>
+
+         <!-- </view> -->
+         <!-- <view wx:else>
+             <text class="pNum">{{phone}}</text>
+         </view> -->
+ 
+     </view>
+     <view class="box3">
+         <text class="name">性别</text>
+         <view wx:if="{{!gender}}">
+             <picker mode="selector" range="{{selectorRange}}" value="{{selectorIndex}}" bindchange="onSelectorChange" class="sex">{{selectorRange[selectorIndex]}}</picker>
+         
+         </view>
+ 
+         <view wx:else>
+             <text class='sex'>{{gender}}</text>
+         </view>
+ 
+     </view>
+ 
+ </view>
+ 
+ <button class="save" bind:tap="save">保存</button>
+
+ 
+ </view>

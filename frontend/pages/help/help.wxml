@@ -1,0 +1,12 @@
+<!--pages/help/help.wxml-->
+<view class="container">
+
+<textarea class="help" bindinput="onTextareaInput" placeholder="请填写问题描述以便我们提供更好的帮助"
+style="padding-top: 10px; padding-left: 10px;"
+/>
+
+<view class="box">
+<button class="btn" bind:tap="sendEmail">提交</button>
+<!-- <button class="btn" bind:tap="tijiao">提交</button> -->
+</view>
+</view>

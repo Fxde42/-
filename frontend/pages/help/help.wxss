@@ -1,0 +1,26 @@
+/* pages/help/help.wxss */
+.container{
+    width: 750rpx;
+    height: 100vh; 
+    background-color: #F7F7F7;
+    justify-content: center;
+}
+.help{
+    position: absolute;
+    background-color: #ffffff;
+    top: 35rpx;
+    width: 750rpx;
+    height: 25vh;
+}
+.box{
+    justify-content:space-between;
+}
+.btn{
+    position: absolute;
+    top: 465rpx;
+    left: 200rpx;
+    color: #ffffff;
+    height: 100rpx;
+    background: #4c8d32;
+    border-radius: 15rpx 15rpx 15rpx 15rpx;
+}

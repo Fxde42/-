@@ -1,0 +1,14 @@
+<!--pages/prediction/prediction.wxml-->
+<view class="container">
+
+    <image class="image_url" src="data:image/png;base64,{{image_url}}" mode=""/>
+    <view class="box">
+        <text class="name">药品名称：{{name}}</text>
+        <text class="appe">药品外观：{{appearance}}</text>
+        <text class="ori">产地：{{origin}}</text>
+        <text class="fun">功能主治：{{func}}</text>
+    
+    </view>
+
+
+</view>

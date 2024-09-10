@@ -1,0 +1,43 @@
+/* pages/setting/setting.wxss */
+.container{
+    width: 750rpx;
+    height: 100vh;
+    background-color: #F7F7F7;
+}
+.box1{
+    position: absolute;
+    top: 100rpx;
+    width: 750rpx;
+    height: 100rpx;
+
+    background: #FFFFFF;
+    border-radius: 0rpx 0rpx 0rpx 0rpx;
+}
+.safe{
+    position: absolute;
+    left: 30rpx;
+    top: 50rpx;
+    font-weight: 400;
+    font-size: 40rpx;
+    color: #707070;
+    line-height: 0rpx;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+}
+.box2{
+    position: absolute;
+    top: 0rpx;
+    width: 750rpx;
+    height: 100rpx;
+    background: #FFFFFF;
+    border-radius: 0rpx 0rpx 0rpx 0rpx;
+}
+
+.then{
+    position: absolute;
+    right:30rpx;
+    top: 25rpx;
+    font-size: 50rpx;
+    color: #707070;
+}

@@ -1,0 +1,12 @@
+<!--pages/safe/safe.wxml-->
+<view class="container">
+
+<view class="box1">
+    <text class="tex">手机号</text>
+    <text class="num">{{phone}}</text>
+</view>
+
+
+
+
+</view>

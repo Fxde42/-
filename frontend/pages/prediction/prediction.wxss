@@ -1,0 +1,75 @@
+/* pages/prediction/prediction.wxss */
+.container{
+    width: 750rpx;
+    padding: 0;
+    /* align-content: initial; */
+    text-align: left;
+}
+.image_url{
+    position: absolute;
+    top: 0;
+    width: 752rpx;
+    height: 540rpx;
+    border-radius: 0rpx 0rpx 0rpx 0rpx;
+}
+/* .name{
+    position: relative;
+    width: 750rpx;
+    top: 5rpx;
+    font-size: x-large;
+    text-align: left;
+}
+.ori{
+    position: relative;
+    width: 750rpx;
+    top: 60rpx;
+    font-size: x-large;
+    text-align: left;
+    margin-bottom: 60rpx;
+}
+.appe{
+    position: relative;
+    width: 750rpx;
+    top: 60rpx;
+    font-size: x-large;
+    margin-bottom: 60rpx;
+    text-align: left;
+}
+.fun{
+    position: relative;
+    width: 750rpx;
+    top: 60rpx;
+    font-size: x-large;
+    margin-bottom: 60rpx;
+    text-align: left;
+} */
+.box{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 384rpx;
+    left: 35rpx;
+    width: 680rpx;
+    /* height: 724rpx; */
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: inset 0rpx 3rpx 6rpx 1rpx rgba(0,0,0,0.16);
+    border-radius: 25rpx 25rpx 0rpx 0rpx;
+    /* display:list-item; */
+}
+
+  
+  .name, .appe, .ori, .fun {
+    margin-bottom: 5px;
+  }
+  
+  .name {
+    font-weight: bold;
+    margin: 40rpx;
+    color: #333;
+  }
+  
+  .appe, .ori, .fun {
+      margin: 40rpx;
+    color: #666;
+  }
